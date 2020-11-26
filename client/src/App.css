@@ -1,0 +1,29 @@
+
+header{
+    background: #1f53f1;
+    align-items: center;
+    color: #fff;
+    padding-left: 20px;
+    height: 50px;
+}
+
+.content{
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+    flex-direction: column;
+}
+.form-group{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.content input{
+    max-width: 400px;
+    height: 35px;
+    line-height: 50px;
+}
+.content .btn{
+    margin: 15px 0;
+}

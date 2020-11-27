@@ -10,8 +10,8 @@ header{
 .content{
     justify-content: center;
     text-align: center;
-    margin: 50px 0;
-    flex-direction: column;
+    height: calc(100vh - 50px);
+    flex-direction: row;
 }
 .form-group{
     align-items: center;
@@ -26,4 +26,9 @@ header{
 }
 .content .btn{
     margin: 15px 0;
+}
+
+
+.content .searchui{
+    border-left: 1px solid #666;
 }
